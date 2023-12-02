@@ -1,0 +1,68 @@
+.app-container {
+  padding: 2rem;
+  height: 100svh;
+  max-width: 100rem;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+form input {
+  width: 100%;
+  background-color: #1d1c1c;
+  border: none;
+  border-radius: 2px;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+form input:focus {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #242424;
+}
+
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pagination button {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+}
+
+.no-user {
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2rem;
+}
